@@ -1,5 +1,9 @@
 public class Calculadora {
 
+    public double sumar(int a, int b){
+        return a+b;
+    }
+
 
     public long multiplicacion(long a, long b) {
         return Math.multiplyExact(a, b);
